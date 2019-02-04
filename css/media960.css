@@ -1,0 +1,121 @@
+@media screen and (max-width: 960px) {
+
+    .mainMenu {
+        display: none;
+    }
+
+    h1 {
+        font-size: 25px;
+        letter-spacing: 25px;
+    }
+
+    .title {
+        font-size: 16px;
+        letter-spacing: 6px;
+    }
+
+    .header-text-center p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 80px;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
+
+    .dropdwnMenu {
+        display: block;
+        position: absolute;
+        background-color: #9f9f9f;
+        z-index: 1;
+        right: 0%;
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+    
+    .dropdwnMenu >ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .dropdwnMenu >ul >li{
+        margin: 25px;   
+    }
+
+    .row-3 {
+        flex-wrap: wrap;
+    }
+
+    .row-3 > div {
+        width: 48%;
+    }
+
+    .row-3 .subtitle-about {
+        width: 100%;
+    }
+
+    .worker-name {
+        margin: 15px 0 10px;
+    }
+
+    .worker-job {
+        margin-bottom: 15px;
+    }
+
+    .img-list > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tabs li > input:checked ~ .tab-content {
+        display: none;
+    }
+    
+    .monitor-img {
+        display: none;
+    }
+
+    .list-services {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-text {
+        max-width: 90%;
+    }
+
+    .gray-layer {
+        width: 50%;
+    }
+
+    .contact {
+        margin: 0 4%;
+    }
+
+    .contact-input {
+        flex-direction: column;
+    }
+
+    .contact-input > div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-info {
+        width: 50%;
+    }
+
+    .contact-info p {
+        letter-spacing: 1.9px;
+    }
+
+    .submit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info {
+        margin: 25px auto 0;
+    }
+}

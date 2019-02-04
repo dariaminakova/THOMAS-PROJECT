@@ -1,0 +1,51 @@
+.list-services{
+    display:flex;
+    justify-content:center;
+}
+
+.list-services li {
+    text-align:center;
+    margin:0 3%;
+    color: #777;
+}
+
+.list-services li span {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.tabs {
+	position: relative;
+}
+
+.tabs:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.tabs li > input {
+	display: none;
+}
+
+.tabs li > label {
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.tabs .tab-content {
+	display: none;
+	position: absolute;
+	left: 0;
+}
+
+.tabs li > input:checked + label {
+    color: black;
+}
+.tabs li > input:checked ~ .tab-content {
+	display: block;
+}
