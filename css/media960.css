@@ -69,8 +69,8 @@
         text-align: center;
     }
 
-    .tabs li > input:checked ~ .tab-content {
-        display: none;
+    .digital-services {
+        margin-top: 270px;
     }
     
     .monitor-img {

@@ -1,4 +1,4 @@
-// выпадающее меню
+// dropdown menu - mobile version
 let header = document.querySelector('header');
 let burgerMenu = document.querySelector('.mobileMenu');
 let hideMenu = document.querySelector('#closeMenu');
@@ -18,7 +18,9 @@ function closeMenu(){
     blockMenu.classList.add('hideMenu');
 }
 
-// фильтр проектов
+// dropdown menu - mobile version
+
+// project filter
 
 let filterItem = document.querySelector('.portfolio-list');
 
@@ -38,9 +40,9 @@ filterItem.addEventListener('click', filter);
         }
     }
 
-// фильтр проектов
+// project filter
 
-// слайд для секции What people say
+// slide section - What people say
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -73,9 +75,9 @@ function showSlides(n){
     dots[slideIndex -1].className += "active";
 }
 
-// слайд для секции What people say
+// slide section - What people say
 
-// валидация данных пользователя 
+// user validation 
 function validateEmail() {
     let name = document.getElementById('name').value;
     if(name.length <= 1){
@@ -90,4 +92,4 @@ function validateEmail() {
        return false;
     }
 }
-// валидация данных 
+// user validation 
