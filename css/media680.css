@@ -59,4 +59,12 @@
     .contact-info img {
         display: none;
     }
+
+    .list-services li{
+     margin: 0 2% 120px;
+    }
+
+    .item{
+        padding: 15px;
+    }
 }
