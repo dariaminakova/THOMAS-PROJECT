@@ -2,6 +2,7 @@
 
 body {
     position: relative;
+    width: 100%;
 }
 
 .navigator {
@@ -92,7 +93,7 @@ input {
 }
 
 .container {
-    margin: 0 10% auto;
+    margin: 0 10% 139px;
 }
 
 .row-3 {
