@@ -56,8 +56,8 @@
         width: 100%;
     }
 
-    .subtitle-about{
-        line-height: 25px;
+    .tabs li > input:checked ~ .tab-content {
+        display: none;
     }
 
     .worker-name {
@@ -73,10 +73,6 @@
         text-align: center;
     }
 
-    .digital-services {
-        margin-top: 270px;
-    }
-    
     .monitor-img {
         display: none;
     }
@@ -133,5 +129,10 @@
 
     .map-box{
         margin-top: 30px;
+    }
+
+    .peopleSayInfo {
+        font-size: 15px;
+        margin: 40px auto 20px;
     }
 }
