@@ -56,6 +56,10 @@
         width: 100%;
     }
 
+    .subtitle-about{
+        line-height: 25px;
+    }
+
     .worker-name {
         margin: 15px 0 10px;
     }
